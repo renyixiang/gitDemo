@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    parallel:classs 级别：相同的classs tag 下的用例在同一线程中执行
+    parallel:tests 级别：不同的test tag下的用例可以在不同的线程下执行
+                        相同的test tag下的用例只能在同一个线程中去执行
+    parallel:methods 级别：所有用例都可以在不同的线程下去运行
+    theard-count:代表了最大并发线程数
+    xml文件配置这种方式不能指定线程池，只有方法上才可以指定线程池
+-->
+<!-- <suite name="theard" parallel="methods" theards-count="2"> -->
+<!-- <suite name="theard" parallel="tests" theards-count="2"> -->
+
+<suite name="theard" parallel="classs" theards-count="3">
+
+    <test name="demo1">
+        <classes>
+            <class name="com.huaan.testng.multiThread.MultiTheardOnXML"/>
+
+        </classes>
+    </test>
+
+     <test name="demo2">
+        <classes>
+            <class name="com.huaan.testng.multiThread.MultiTheardOnXML"/>
+
+        </classes>
+    </test>
+</suite>
