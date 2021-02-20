@@ -1,0 +1,16 @@
+[
+  {
+    "description": "模拟有参数的post_mock请求",
+    "request": {
+      "uri": "/postMockHaveparameter",
+      "method": "post",
+      "forms": {
+        "name": "大刀王五",
+        "profession": "江湖侠客"
+      }
+    },
+    "response": {
+      "text": "我王五带着参数入场"
+    }
+  }
+]

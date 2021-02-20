@@ -1,0 +1,22 @@
+[
+  {
+    "description": "模拟带headers-get的mock请求",
+    "request": {
+      "uri": "/GetHeader",
+      "method": "get",
+      "headers": {
+        "content-Type": "application/json"
+      },
+      "json": {
+        "name": "李四",
+        "age": 18
+      }
+    },
+    "response": {
+      "json": {
+        "name": "lisi",
+        "status":200
+      }
+    }
+  }
+]

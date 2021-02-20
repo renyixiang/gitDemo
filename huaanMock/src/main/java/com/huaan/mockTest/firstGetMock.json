@@ -1,0 +1,12 @@
+[
+  {
+    "description": "模拟一个没有参数的get-mock",
+    "request": {
+      "uri": "/getMock/NoParameters",
+      "method": "get"
+    },
+    "response": {
+      "text": "这是一个没有参数的get-mock"
+    }
+  }
+]

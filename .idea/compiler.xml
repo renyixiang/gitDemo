@@ -7,9 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="huaantestNGdemo" />
+        <module name="huaanMock" />
+        <module name="beautifulReportDemo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
+      <module name="beautifulReportDemo" target="8" />
+      <module name="huaanMock" target="1.5" />
       <module name="huaantestNGdemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>

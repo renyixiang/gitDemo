@@ -1,0 +1,3 @@
+Java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c firstMock.json
+
+huaanMock/src/main/java/com/huaan/mockTest/moco-runner-0.11.0-standalone.jar

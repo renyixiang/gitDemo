@@ -2,7 +2,6 @@ package com.huaanreport.extentReportDemo;
 
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 

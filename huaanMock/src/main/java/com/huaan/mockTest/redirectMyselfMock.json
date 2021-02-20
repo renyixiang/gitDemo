@@ -1,0 +1,22 @@
+[
+  {
+    "description": "模拟重定向到自己指定路径Mock",
+    "request": {
+      "uri": "/redirect/Myself",
+      "method": "get"
+    },
+    "redirectTo": "/redirect/new"
+  },
+  {
+    "description": "这是被重定向到的请求",
+    "request": {
+      "uri": "/redirect/new"
+    },
+    "response":{
+      "json": {
+        "name": "王武",
+        "age": "28"
+      }
+    }
+  }
+]

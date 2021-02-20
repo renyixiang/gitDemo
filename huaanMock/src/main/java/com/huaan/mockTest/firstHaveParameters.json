@@ -1,0 +1,16 @@
+[
+  {
+    "description": "模拟有参数get-mock请求",
+    "request": {
+      "uri": "/get/with/Parameters",
+      "method": "get",
+      "queries": {
+        "name": "大刀王五",
+        "profession": "江湖侠客"
+      }
+    },
+    "response": {
+      "text": "我大刀王五的刀，那是有39米的，允许你先跑40米！"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "description": "模拟重定向到百度",
+    "request": {
+      "uri": "/redirectMock",
+      "method": "get"
+    },
+    "redirectTo": "https://www.baidu.com"
+
+  }
+]

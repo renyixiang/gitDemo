@@ -1,0 +1,12 @@
+[
+  {
+    "description": "模拟一个没有参数的post_mock请求",
+    "request": {
+      "uri": "/postMockNoparameter",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是一个没有参数的post-mock"
+    }
+  }
+]

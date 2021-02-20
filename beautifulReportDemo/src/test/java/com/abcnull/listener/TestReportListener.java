@@ -33,7 +33,7 @@ public class TestReportListener implements IReporter {
     private int testsSkip;
     private String beginTime;
     private long totalTime;
-    private String project = "WebUI自动化测试报告";
+    private String project = "API自动化测试报告";
 
     @Override
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {

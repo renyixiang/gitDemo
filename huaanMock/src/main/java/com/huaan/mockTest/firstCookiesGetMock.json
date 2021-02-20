@@ -1,0 +1,15 @@
+[
+  {
+    "description": "模拟一个携带cookies请求头mock",
+    "request": {
+      "uri": "/cookiesMock",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "这是一个携带cookies的mock请求"
+    }
+  }
+]
